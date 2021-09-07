@@ -37,6 +37,7 @@ phases:
     commands:
       - touch nikhil.yml
       - ls
+      - pwd
       - echo “testing pipeline using codebuild“ > nikhil.yml
       - cat nikhil.yml
   #post_build:
