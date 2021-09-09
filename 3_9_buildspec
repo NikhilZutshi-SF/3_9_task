@@ -48,7 +48,7 @@ phases:
       - cat nikhil.yml
       - git add .
       - git commit -m "Nikhil File edit"
-      - git push origin new
+      - git push https://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@github.com/NikhilZutshi-SF/3_9_task.git origin new
   #post_build:
     #commands:
       # - command
