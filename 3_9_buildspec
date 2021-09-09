@@ -39,7 +39,7 @@ phases:
     commands:
       - mkdir nikhil
       - cd nikhil
-      - git clone https://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@github.com/NikhilZutshi-SF/3_9_task.git
+      - git clone https://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@github.com/NikhilZutshi-SF/test.git
       - git checkout -b new
       - touch nikhil.yml
       - ls
@@ -48,7 +48,7 @@ phases:
       - cat nikhil.yml
       - git add .
       - git commit -m "Nikhil File edit"
-      - git push https://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@github.com/NikhilZutshi-SF/3_9_task.git 
+      - git push 
   #post_build:
     #commands:
       # - command
