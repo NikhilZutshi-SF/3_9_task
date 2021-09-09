@@ -31,7 +31,9 @@ phases:
       # - command
   pre_build:
     commands:
-       - ls
+       -  git config --global user.email "nikhil.zutshi@sourcefuse.com"
+       -  git config --global user.name "Nikhil Zutshi"
+
        #- command
   build:
     commands:
