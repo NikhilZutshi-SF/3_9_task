@@ -40,7 +40,7 @@ phases:
       - pwd
       - echo “testing pipeline using codebuild“ > nikhil.yml
       - cat nikhil.yml
-      - git push https://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@github.com/NikhilZutshi-SF/<https://github.com/NikhilZutshi-SF/3_9_task.git
+      - git push https://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@github.com/NikhilZutshi-SF/3_9_task.git
   #post_build:
     #commands:
       # - command
