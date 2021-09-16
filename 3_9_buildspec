@@ -48,7 +48,6 @@ phases:
       - cat nikhil1.yml
       - git add .
       - git commit -m "Nikhil 2 File edit"
-      - git push --set-upstream origin new
       - git push 
   #post_build:
     #commands:
