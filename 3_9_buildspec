@@ -41,13 +41,12 @@ phases:
       - cd nikhil
       - git clone https://'$gittoken'@github.com/NikhilZutshi-SF/test.git
       - git checkout -b new
-      - touch nikhil.yml
+      - touch nikhil1.yml
       - ls
       - pwd
-      - echo “testing pipeline using codebuild“ > nikhil.yml
       - cat nikhil.yml
       - git add .
-      - git commit -m "Nikhil File edit"
+      - git commit -m "Nikhil 1 File edit"
       - git push 
   #post_build:
     #commands:
