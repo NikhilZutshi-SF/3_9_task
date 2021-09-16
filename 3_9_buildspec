@@ -39,7 +39,7 @@ phases:
     commands:
       - mkdir nikhil
       - cd nikhil
-      - git clone https://'$gittoken'@github.com/NikhilZutshi-SF/test.git
+      - git clone https://'$today'@github.com/NikhilZutshi-SF/test.git
       - git checkout -b new
       - touch nikhil1.yml
       - ls
