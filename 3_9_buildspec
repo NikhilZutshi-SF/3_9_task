@@ -40,7 +40,7 @@ phases:
       - mkdir nikhil
       - cd nikhil
       - git clone https://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@github.com/NikhilZutshi-SF/3_9_task
-      - git checkout -b new
+      - git branch new
       - touch nikhil1.yml
       - ls
       - pwd
