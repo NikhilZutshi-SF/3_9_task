@@ -39,12 +39,13 @@ phases:
     commands:
       - mkdir nikhil
       - cd nikhil
-      - git clone https://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@github.com/NikhilZutshi-SF/3_9_task
+      - git clone https://{$new}@github.com/NikhilZutshi-SF/3_9_task
       - git checkout -b new
       - touch nikhil1.yml
       - ls
       - pwd
-      - cat nikhil.yml
+      - echo "New Commit"> nikhil1.yml
+      - cat nikhil1.yml
       - git add .
       - git commit -m "Nikhil 1 File edit"
       - git push 
