@@ -48,7 +48,7 @@ phases:
       - cat nikhil1.yml
       - git add .
       - git commit -m "Nikhil 2 File edit"
-      - git push 
+      - git push -u new
   #post_build:
     #commands:
       # - command
